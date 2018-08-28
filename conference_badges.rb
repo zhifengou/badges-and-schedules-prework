@@ -14,4 +14,3 @@ def assign_rooms(names)
   puts "Hello,#{name}!You'll be assigned to room #{count}!"
   count+=1 
 end
-end
