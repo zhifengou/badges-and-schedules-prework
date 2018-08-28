@@ -22,6 +22,12 @@ def assign_rooms(names)
 end
 
 def printer(str)
-  batch_badge_creator(str)
-  assign_rooms(str)
+  newArr=[]
+  batch_badge_creator(str).each do |each|
+    newArr.push(each)
+  end
+  assign_rooms(str).each do|each|
+   newArr.push(each)
+  end
+  return newArr
 end
