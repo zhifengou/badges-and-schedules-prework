@@ -24,10 +24,10 @@ end
 def printer(str)
   newArr=[]
   batch_badge_creator(str).each do |each|
-    newArr.push(each)
+    newArr.push("#{each}")
   end
   assign_rooms(str).each do|each|
-   newArr.push(each)
+   newArr.push("#{each}")
   end
   return newArr
 end
