@@ -15,7 +15,7 @@ def assign_rooms(names)
   count=1
   newArr=[]
   names.each do |name|
-  newArr<< "Hello,#{name}! You'll be assigned to room #{count}!"
+  newArr<< "Hello, #{name}! You'll be assigned to room #{count}!"
   count+=1 
   end
   return newArr
